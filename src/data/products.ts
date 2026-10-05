@@ -1,4 +1,8 @@
 import { JewelProduct } from '../types';
+import solarisImg from '../assets/images/product_solaris_pendant_1791177616767.jpg';
+import moltenRingImg from '../assets/images/product_molten_ring_1791177630884.jpg';
+import baroqueEarringsImg from '../assets/images/product_baroque_earrings_1791177642159.jpg';
+import botanicalCuffImg from '../assets/images/product_botanical_cuff_1791177655936.jpg';
 
 export const PRODUCTS: JewelProduct[] = [
   {
@@ -7,7 +11,7 @@ export const PRODUCTS: JewelProduct[] = [
     subtitle: 'Hand-hammered 18k solid gold with untreated rough Colombian emerald',
     category: 'necklaces',
     price: 680,
-    image: '/src/assets/images/product_solaris_pendant_1791177616767.jpg',
+    image: solarisImg,
     metalOptions: ['18K Recycled Yellow Gold', '18K Warm Rose Gold', '925 Sterling Silver'],
     stone: 'Raw Muzo Emerald (1.45 ct)',
     description: 'Each medallion is hand-melted and hammered individually on an antique French steel anvil, producing an organic celestial texture that catches the light like trembling water.',
@@ -28,7 +32,7 @@ export const PRODUCTS: JewelProduct[] = [
     subtitle: 'Textured recycled gold signet with flush-set salt & pepper diamond',
     category: 'rings',
     price: 890,
-    image: '/src/assets/images/product_molten_ring_1791177630884.jpg',
+    image: moltenRingImg,
     metalOptions: ['18K Recycled Yellow Gold', '950 Pure Platinum', '925 Antiqued Silver'],
     stone: 'Salt & Pepper Natural Diamond (0.62 ct)',
     description: 'Forged with molten, uneven borders reminiscent of cooled volcanic magma. The natural salt & pepper diamond exhibits cosmic galaxy inclusions, each completely one-of-a-kind.',
@@ -49,7 +53,7 @@ export const PRODUCTS: JewelProduct[] = [
     subtitle: 'Luminous freshwater baroque pearls suspended on hand-twisted silver',
     category: 'earrings',
     price: 420,
-    image: '/src/assets/images/product_baroque_earrings_1791177642159.jpg',
+    image: baroqueEarringsImg,
     metalOptions: ['925 Sterling Silver', '18K Yellow Gold Vermeil', '18K Solid Gold'],
     stone: 'Wild Baroque Freshwater Pearls (14–16mm)',
     description: 'No two pearls in the Selene pair are identical; their asymmetrical, organic contours mirror ocean ripples and moon reflections. Suspended on hand-twisted wire hooks.',
@@ -70,7 +74,7 @@ export const PRODUCTS: JewelProduct[] = [
     subtitle: 'Heavy sculpted open cuff with raw bark texture and satin brush finish',
     category: 'bracelets',
     price: 740,
-    image: '/src/assets/images/product_botanical_cuff_1791177655936.jpg',
+    image: botanicalCuffImg,
     metalOptions: ['18K Recycled Yellow Gold', 'Solid jeweler bronze', '925 Heavy Silver'],
     stone: 'Solid hand-textured metal (unadorned)',
     description: 'Inspired by ancient olive boughs in Mediterranean groves. Hand-shaped using heavy horn mallets and chased with steel gravers to create a delicate botanical bark texture.',
@@ -91,7 +95,7 @@ export const PRODUCTS: JewelProduct[] = [
     subtitle: 'Scattered unheated teal sapphires flush-set in molten textured band',
     category: 'rings',
     price: 950,
-    image: '/src/assets/images/product_molten_ring_1791177630884.jpg',
+    image: moltenRingImg,
     metalOptions: ['18K Recycled Yellow Gold', '18K White Gold', '18K Rose Gold'],
     stone: 'Ethical Montana & Ceylon Sapphires (0.85 ct total)',
     description: 'A continuous ring of undulating gold textured like windswept dunes, set with five flush-set natural sapphires ranging from ocean teal to deep midnight blue.',
@@ -112,7 +116,7 @@ export const PRODUCTS: JewelProduct[] = [
     subtitle: 'Hand-hammered open neck torc crafted in forged solid sterling',
     category: 'necklaces',
     price: 530,
-    image: '/src/assets/images/product_solaris_pendant_1791177616767.jpg',
+    image: solarisImg,
     metalOptions: ['925 Sterling Silver', '18K Yellow Gold Dip', 'Solid 18K Gold'],
     stone: 'Cabochon Rainbow Moonstone finials',
     description: 'A minimalist sculptural collar that rests gently on the collarbones, finished with rounded raw rainbow moonstones that emit a gentle blue adularescence under natural light.',
@@ -133,7 +137,7 @@ export const PRODUCTS: JewelProduct[] = [
     subtitle: 'Daily 18k gold huggies with hand-faceted light-reflecting facet chisels',
     category: 'earrings',
     price: 360,
-    image: '/src/assets/images/product_baroque_earrings_1791177642159.jpg',
+    image: baroqueEarringsImg,
     metalOptions: ['18K Recycled Yellow Gold', '18K Rose Gold', '925 Sterling Silver'],
     stone: 'Micro Brilliant Cut Diamonds (0.12 ct)',
     description: 'Designed for effortless daily wear. The outer rim is micro-chiseled by hand so each facet scatters candlelight and sunlight with organic subtlety.',
@@ -154,8 +158,9 @@ export const PRODUCTS: JewelProduct[] = [
     subtitle: 'Individually soldered elongated links with raw textured toggle closure',
     category: 'bracelets',
     price: 620,
-    image: '/src/assets/images/product_botanical_cuff_1791177655936.jpg',
+    image: botanicalCuffImg,
     metalOptions: ['18K Recycled Yellow Gold', '925 Heavy Silver', 'Mixed Two-Tone Gold & Silver'],
+
     stone: 'Solid textured links with hidden flush diamond on toggle',
     description: 'Each oval link is hand-pulled from drawn wire, shaped around custom mandrels, and soldered with hard gold solder for unmistakable artisanal weight and drape.',
     story: 'Finished with a signature organic T-bar toggle cast directly from a naturally eroded coastal pebble discovered on the Cornish coastline.',

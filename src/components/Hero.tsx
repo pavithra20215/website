@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, Sparkles, ShieldCheck, Flame, Gem } from 'lucide-react';
+import heroImg from '../assets/images/hero_artisan_jewels_1791177601146.jpg';
 
 interface HeroProps {
   onExploreClick: () => void;
@@ -70,7 +71,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onBespokeClick }) =>
             <div className="relative group">
               <div className="overflow-hidden bg-[#F3EDE2] aspect-[16/10] sm:aspect-[16/10] relative shadow-md">
                 <img
-                  src="/src/assets/images/hero_artisan_jewels_1791177601146.jpg"
+                  src={heroImg}
                   alt="Handcrafted fine jewelry arranged on natural travertine stone with natural morning sunlight"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-103"
