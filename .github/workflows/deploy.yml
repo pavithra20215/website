@@ -13,7 +13,7 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# Allow only one concurrent deployment
 concurrency:
   group: 'pages'
   cancel-in-progress: false
@@ -34,12 +34,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci --legacy-peer-deps || npm install --legacy-peer-deps
-          else
-            npm install --legacy-peer-deps
-          fi
+        run: npm install --legacy-peer-deps
 
       - name: Build project
         run: npm run build
